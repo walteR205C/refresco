@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    }
+    header{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between; /* Distribuir items uniformement El
+    primer item al inicio, el último al final */
+    background-color: rgb(182, 255, 231) ;
+    align-items: center;
+    padding: 10px;
+    }
+    #logo-empresa{
+    display: flex;
+    
+    height: 120px;
+    align-items: center;
+    color: rgb(214, 16, 16);
+    text-decoration: none;
+    }
+    
+    #logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    }
+
+    
+    /*aplicamos estilios a la barra de navagaxionb*/
+    
+    nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(17, 17, 16);
+    font-weight: bold;/*aplicar negrita*/
+    }
+    nav .link-nav:hover{
+    color: teal;
+    
+   
+   
+
+
+    }
+
+    #empresa{
+        font-size: 55px;/*tamaña de letra*/
+        }
+
+
